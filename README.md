@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>📺 Watch Together • 🛡️ Privacy • 🔓 Open Source • 🤝 Community</strong>
+  <strong>📺 Watch Together &nbsp;•&nbsp; 🛡️ Privacy &nbsp;•&nbsp; 🔓 Open Source &nbsp;•&nbsp; 🤝 Community</strong>
 </p>
 
 <p align="center">
@@ -13,51 +13,16 @@
   <img src="https://img.shields.io/badge/Origin-Krynet%2C%20LLC-2563EB.svg">
 </p>
 
+---
+
 > [!NOTE]
 > **LibreWatch was originally created by Krynet, LLC as an open-source YouTube "Watch Together" framework for the Krynet ecosystem.**
 >
-> The original project was released under **AGPL-3.0** with the intention of allowing community development.
+> The original project was released under **AGPL-3.0**, allowing the software to be used, modified, and redistributed under the terms of that license.
 >
 > This repository is an **independent community-maintained continuation** of that work.
 
----
-
-## ⚠️ Important
-
-LibreWatch is **not an official Krynet, LLC repository**.
-
-This project is maintained independently by **Krynet Community** and may differ from the original project in implementation, security practices, quality standards, dependencies, features, and development direction.
-
-Nothing in this repository should be interpreted as:
-
-* ❌ Official Krynet software
-* ❌ An official Krynet release
-* ❌ Official Krynet documentation
-* ❌ Official Krynet security guidance
-* ❌ A Krynet partnership
-* ❌ Krynet, LLC endorsement
-* ❌ Official Krynet UGC Program participation
-* ❌ An official Krynet Store submission
-
-> [!CAUTION]
->
-> ### 🔐 Different Security & Quality Practices
->
-> **Krynet Community does not follow the same security practices or quality practices as the official Krynet Team.**
->
-> Community-maintained changes may not receive the same code review, security review, testing, auditing, release validation, or quality assurance used by Krynet, LLC.
->
-> Review the source code and dependencies before deploying LibreWatch or integrating it into another application.
-
-> [!WARNING]
->
-> ### 🌐 External Services
->
-> LibreWatch can communicate with external services depending on configuration and enabled functionality, including YouTube, SponsorBlock, ClearURLs resources, CDN providers, and room/synchronization infrastructure.
->
-> The privacy practices, availability, logging, and security of those services are **outside the control of LibreWatch**.
->
-> Review the configured endpoints before deploying a production instance.
+For information about **Krynet Community as an organization**, including its relationship with Krynet, LLC, security practices, UGC status, and community policies, see the organization's README.
 
 ---
 
@@ -75,7 +40,7 @@ Originally designed as a foundation for synchronized media playback within the K
 * ⏭️ SponsorBlock integration
 * 📱 Responsive interfaces
 
-The community continuation aims to keep the project:
+The community continuation aims to keep LibreWatch:
 
 * 🔓 Free and open source
 * 🌍 Self-hostable
@@ -83,8 +48,6 @@ The community continuation aims to keep the project:
 * ⚡ Dependency-conscious
 * 🛡️ Privacy-oriented
 * 🤝 Community maintained
-
----
 
 ## ✨ Features
 
@@ -312,49 +275,47 @@ navigator.clipboard
 
 ---
 
-## 🔐 Privacy & Data Handling
+## 🔐 Privacy & External Services
 
 LibreWatch is designed to minimize unnecessary tracking and telemetry where the implementation can control it.
 
-However, LibreWatch **cannot control external services**.
+However, some functionality necessarily involves external services.
 
-Depending on configuration and functionality, requests may be made to:
+Depending on configuration and enabled features, requests may be made to:
 
 * ▶️ YouTube
 * 🛡️ SponsorBlock
 * 🧹 ClearURLs resources
 * 📦 CDN providers
 * 👥 Room/synchronization services
-* 🌐 Configured external endpoints
+* 🌐 Other configured external endpoints
+
+The privacy practices, availability, logging, and security of those services are outside the control of LibreWatch.
 
 > [!IMPORTANT]
-> **Using LibreWatch does not make YouTube or other external services private.**
+> **LibreWatch is not an anonymity system.**
 >
-> External providers may collect IP addresses, request information, cookies, device information, or other telemetry according to their own policies.
-
-LibreWatch should therefore be considered a **privacy-conscious interface**, not an anonymity system.
+> Using LibreWatch does not prevent YouTube or other external services from receiving information about requests made to them.
+>
+> Users deploying their own instance should review the configured endpoints and understand what information is sent to each service.
 
 ---
 
-## 🔒 Security
+## 🛡️ Deployment Considerations
 
-Community maintainers recommend reviewing:
+Before deploying LibreWatch, particularly for a public or production instance, review:
 
 * 🌐 Network endpoints
 * 📦 JavaScript dependencies
-* 🔑 Authentication mechanisms
-* 💾 Local storage
+* 💾 Local storage behavior
 * 🍪 Cookies
 * 📡 Room synchronization
 * 🔗 External URLs
 * 🧩 Third-party integrations
+* ⚙️ Server configuration
+* 🔐 Any authentication added by the deployment
 
-Do not assume that a community release has undergone the same security review as official Krynet software.
-
-> [!CAUTION]
-> **Krynet Community does not follow the same security or quality practices as Krynet, LLC.**
->
-> LibreWatch is independently maintained.
+LibreWatch is designed to be self-hostable, but the security of a deployment ultimately depends on how it is configured and exposed.
 
 ---
 
@@ -386,7 +347,7 @@ Additional project files may be added as the community architecture evolves.
 
 ## 🛣️ Roadmap
 
-Future community development may include:
+Potential areas for future development include:
 
 * 🔄 More robust Watch Together synchronization
 * 💬 Full room-based chat synchronization
@@ -401,14 +362,11 @@ Future community development may include:
 * ⚙️ Additional player configuration
 * 🌍 Better self-hosting support
 
-> [!NOTE]
-> Roadmap items are community goals and are **not commitments from Krynet, LLC**.
+Roadmap items are community development goals and may change as the project evolves.
 
 ---
 
 ## 🤝 Contributing
-
-LibreWatch was released as an open-source project intended to support community development.
 
 Contributions are welcome across:
 
@@ -441,48 +399,18 @@ LibreWatch should remain approachable for contributors rather than becoming an u
 
 ## 🏛️ Original Project
 
-LibreWatch was originally created by **Krynet, LLC**.
+LibreWatch was originally created by **Krynet, LLC** as an open-source component of the Krynet ecosystem.
 
-### 🔗 Official Krynet Resources
+The original project was released under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
 
-* 🌐 [https://krynet.ai](https://krynet.ai)
-* 📦 [https://codeberg.org/Krynet-LLC](https://codeberg.org/Krynet-LLC)
-* 💻 [https://gitlab.com/Krynet-Team](https://gitlab.com/Krynet-Team)
+### Official Resources
 
-The original project, branding, trademarks, and other applicable rights remain subject to their respective owners and applicable licenses.
+* 🌐 [Krynet.ai](https://krynet.ai)
+* 📦 [Official Codeberg](https://codeberg.org/Krynet-LLC)
+* 💻 [Official GitLab Mirror](https://gitlab.com/Krynet-Team)
+* 🐙 [Legacy GitHub](https://github.com/Krynet-LLC)
 
-This repository is an **independent community continuation**.
-
----
-
-## 🧩 Krynet Community
-
-LibreWatch is part of a broader community effort around software originating from or related to the Krynet ecosystem.
-
-The community focuses on:
-
-* 🔓 Preserving available source code
-* 🛠️ Continuing inactive or abandoned components
-* 🧑‍💻 Supporting independent contributors
-* 🌍 Supporting self-hosted deployments
-* 🛡️ Maintaining privacy-oriented functionality
-* 📚 Preserving technical documentation
-* 🔬 Experimenting with alternative implementations
-
-The purpose is **not to impersonate Krynet, LLC**, but to provide an independent place for community members to continue working on related open-source software.
-
----
-
-## 🚫 UGC Program & Partnership Status
-
-> [!IMPORTANT]
-> **LibreWatch is not an official Krynet UGC Program project.**
->
-> Krynet Community is **not a Krynet, LLC partner**.
->
-> This repository should not be interpreted as participation in, approval under, or acceptance into any official Krynet creator, UGC, plugin, theme, extension, or Store program.
-
-Official Krynet UGC opportunities and Store policies should be obtained directly from **Krynet, LLC**.
+This repository is an **independent community continuation** of the original project.
 
 ---
 
@@ -491,8 +419,6 @@ Official Krynet UGC opportunities and Store policies should be obtained directly
 LibreWatch is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
 
 See [`LICENSE`](LICENSE) for the complete license terms.
-
-The original project was created by **Krynet, LLC**. This continuation is maintained independently by the community.
 
 ---
 
@@ -505,5 +431,5 @@ The original project was created by **Krynet, LLC**. This continuation is mainta
 </p>
 
 <p align="center">
-  <strong>Not Official Krynet Software · Not a Krynet Partner · Not Part of the Krynet UGC Program</strong>
+  <sub>Independent community continuation of an originally open-source Krynet project.</sub>
 </p>
